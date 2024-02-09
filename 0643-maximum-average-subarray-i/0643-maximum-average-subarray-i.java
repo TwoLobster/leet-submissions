@@ -6,8 +6,7 @@ class Solution {
             for(int j=i; j<i+k && j<nums.length; j++){
                 sums=sums+nums[j];
             }
-         double avg=(double)sums/k;
-            maxavg=Math.max(maxavg, avg);
+            maxavg=Math.max(maxavg, (double)sums/k);
         }
         return maxavg;
     }
