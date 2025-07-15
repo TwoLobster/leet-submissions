@@ -6,7 +6,7 @@ class Solution {
             
             if(Character.isLetter(w)){
                 w=Character.toLowerCase(w);
-                 if (w == 'a' || w == 'e' || w == 'i' || w == 'o' || w == 'u') vowel++;
+                 if ("aeiou".indexOf(w)>=0) vowel++;
                  else consonant++;
             }
         }
